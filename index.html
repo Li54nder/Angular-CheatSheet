@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./tmp/style.css">
+    <title>Angular Cheatsheet</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="#lifecycle">Life Cycle</a>
+        <a href="#structuraldirectives">Structural Directives</a>
+        <a href="#classfielddecorator">Class Field Decorator</a>
+        <a href="#databinding">Data Binding</a>
+        <a href="#styling">Styling</a>
+        <a href="#pipes">Pipes</a>
+        <a href="#routing">Routing</a>
+    </div>
+    <div class="navBg">
+        <a href="#lifecycle">Life Cycle</a>
+        <a href="#structuraldirectives">Structural Directives</a>
+        <a href="#classfielddecorator">Class Field Decorator</a>
+        <a href="#databinding">Data Binding</a>
+        <a href="#styling">Styling</a>
+        <a href="#pipes">Pipes</a>
+        <a href="#routing">Routing</a>
+    </div>
+    <div class="navigation">
+        <i id="lifecycle">a</i>
+        <i id="structuraldirectives">a</i>
+        <i id="classfielddecorator">a</i>
+        <i id="databinding">a</i>
+        <i id="styling">a</i>
+        <i id="pipes">a</i>
+        <i id="routing">a</i>
+    </div>
+    <img src="./tmp/angular-cheatsheet.png" alt="Cheatsheet">
+
+    <script>
+        const heightNav = document.querySelector('.nav').offsetHeight;
+        const dinamicMargin = document.querySelector('.navigation').style;
+        dinamicMargin.marginTop = (50 + heightNav) + "px";
+    </script>
+    
+</body>
+</html>
